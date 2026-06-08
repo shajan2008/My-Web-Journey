@@ -1,15 +1,28 @@
 body{
-    background-color: black;
+    background-color: #0A0A0A;
+    color: lightgray;
+    accent-color: #FFD700;
+    font-family: 'Inter',sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    float: top;
+}
+nav a{
+    color: #FFD700;
+    text-decoration: none;
 }
 h1{
-    color: whitesmoke;
+    color: #FFD700;
+
 }
-h2{
-    color: whitesmoke;
-}
-h3{
-    color: whitesmoke;
-}
-image{
-    
+img{
+    width: 200px;
+    border-radius: 20px;
+    float: right;
 }
