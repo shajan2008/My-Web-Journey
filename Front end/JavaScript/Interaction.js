@@ -1,11 +1,9 @@
-let button = document.getElementById(`switch`);
-let isDark = true;
-button.addEventListener(`click`, function(){
-    if(isDark){
-       document.body.style.backgroundColor = `#FFD700`;
-       isDark = false;
+let toggle = document.getElementById(`togglebtn`);
+toggle.addEventListener(`change`, function(){
+    if(toggle.checked){
+        document.body.style.backgroundColor = `white`;
     }
     else{
         document.body.style.backgroundColor = `#0A0A0A`;
     }
-});
+})
