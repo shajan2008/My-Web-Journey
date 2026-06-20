@@ -1,0 +1,12 @@
+.menu{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    grid-template:max-content;
+}
+#img1{
+    display:flex;
+    float:right;
+}
